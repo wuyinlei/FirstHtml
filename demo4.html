@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>第二天笔记01</title>
+</head>
+<body>
+<!--
+    一、color值
+        1、英文 red green blue black yellow gray orange
+
+        2、rgb   rgb(0-255,0-255,0-255)
+
+        3、十六进制  #FDFDFD
+-->
+<hr color="#FFEE11" SIZE="10" align="LEFT" WIDTH="80%"/>
+
+<hr color="#F0a4e2" SIZE="10" align="center" WIDTH="800"/>
+
+<hr color="#8f72a3" SIZE="10" align="right" WIDTH="600"/>
+
+<!--
+    h1---h6   标题  1最大  6最小
+    p 段落分隔符
+    -->
+<h1>标题1</h1>
+
+<h2>标题2</h2>
+
+<h3>标题3</h3>
+<h4>标题4</h4>
+<h5>标题5</h5>
+<h6>标题6</h6>
+
+<p>段落</p>
+
+<form action="demo4.html" method="get" enctype="multipart/form-data">
+
+    <p>
+        文本框：搜索、邮箱、用户名
+        <input type="text" placeholder="请输入用户名" name="username" maxlength="10">
+    </p>
+
+    <p>
+        密码框：
+        <input type="password" name="pwd" value="tom">
+    </p>
+
+
+    <p>
+        文件：
+        <input type="file" name="pic">
+    </p>
+
+
+    <p>
+        单选按钮：
+        <input type="radio" name="sex" value="man" checked>男
+        <input type="radio" name="sex" value="girl">女
+        <input type="radio" name="sex" value="other">其他
+    </p>
+
+    <p>
+        多选按钮：
+        <input type="checkbox" checked value="吃饭" name="array">吃饭
+        <input type="checkbox" checked value="睡觉" name="array">睡觉
+        <input type="checkbox" value="打豆豆" name="array"> 打豆豆
+    </p>
+
+
+    <p>
+        <textarea cols="23" rows="4"> </textarea>
+    </p>
+
+    <p>
+        下拉列表:年龄、籍贯、地区
+        <select name="area">
+            <option value="北京">北京</option>
+            <option value="天津" selected>天津</option>
+            <option value="上海">上海</option>
+            <option value="深圳">深圳</option>
+        </select>
+    </p>
+
+    <p>
+        <!--隐藏域-->
+        <input hidden="key" value="dasfasdfasdfsdafdsa">
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        <input type="button" value="普通按钮">
+
+    </p>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!--设置字符集-->
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<!--enctype="multipart/form-data"  在上传的时候必须写上的，这个是把文件转化成二进制流
+    method="get|post"   这两个提交方法只能选择其中的一种
+    -->
+<form action="" method="get" enctype="multipart/form-data">
+    文本框:搜索框、手机、用户名、密码:
+    <input type="text"/>
+    <br><br>
+
+    密码框:
+    <input type="password">
+    <br><br>
+
+    上传:
+    <input type="file">
+    <br><br>
+
+    单选按钮:
+    <input type="radio">男
+    <input type="radio">女
+    <input type="radio">未知
+    <br><br>
+
+    复选框:
+    <input type="checkbox">吃饭
+    <input type="checkbox">睡觉
+    <input type="checkbox">打豆豆
+    <br><br>
+
+
+    文本域:说说、个签、个人简介、产品描述
+    <!--cols表示的是显示多少行
+        rows表示显示的多少列
+        -->
+    <textarea cols="45" rows="1"></textarea>
+    <br><br>
+
+    下拉列表:年龄、籍贯、地区
+    <select>
+        <option value="">北京</option>
+        <option value="">天津</option>
+        <option value="">上海</option>
+        <option value="">深圳</option>
+    </select>
+    <br><br>
+
+    分组:
+    <select>
+        <optgroup label="华北区">
+            <option value="">北京</option>
+            <option value="">天津</option>
+        </optgroup>
+        <optgroup label="华南区">
+            <option value="">上海</option>
+            <option value="">深圳</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    多选分组:
+    <select multiple>
+        <optgroup label="华北区">
+            <option value="">北京</option>
+            <option value="">天津</option>
+        </optgroup>
+        <optgroup label="华南区">
+            <option value="">上海</option>
+            <option value="">深圳</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    提交按钮:
+    <input type="submit" value="用户注册">
+    <input type="button" value="普通按钮">
+    <input type="reset" value="清空输入">
+    <br><br>
+
+</form>
+</body>
+</html>
